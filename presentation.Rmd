@@ -1,0 +1,53 @@
+---
+title: "Sage, Synapse, and the PCBC"
+author: "Kenneth Daily<br/>Senior Scientist, Sage Bionetworks"
+contact: "github:@kdaily --- twitter:@sleight82"
+date: "2017-04-24 @ Stanford University"
+logo: "img/Sage_neon_logo1.png"
+output:
+  revealjs::revealjs_presentation:
+    theme: night
+    template: template.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Who am I?
+
+## {data-background="img/iu_sample_gates.png"}
+
+## {data-background="img/uci.png"}
+
+## {data-background="img/nih_clinical_center.png"}
+
+## {data-background="img/seattle.png"}
+
+## ![sage](img/Sage_neon_logo1.png)
+
+Non-profit biomedical research institute founded in 2007
+
+<br/>
+
+> We work to redefine how complex biological data is gathered, shared and used, redefining it through open systems, incentives, and norms.
+
+## Our focus
+
+> Engage <span style="color: #177bad">**diverse communities**</span> of researchers around biological and analytical problems too complex for a single institution
+
+<br/>
+
+> Empower <span style="color: #177bad">**citizens**</span> to track their own health and <span style="color: #177bad">**contribute**</span> deep phenotypic data to research topics important to them
+
+
+## Our work
+
+- Community Building (in disease research)
+- DREAM Challenges (crowdsourced methods development)
+- Mobile Health (app and process development for personal medicine)
+
+## ![synapse](img/newsynapse.png)
+
+> A platform for supporting scientific collaborations centered around shared biomedical data sets with a goal of making biomedical research more transparent, more reproducible, and more accessible to a broader audience of scientists.
+
