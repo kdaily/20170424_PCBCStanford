@@ -8,6 +8,8 @@ output:
   revealjs::revealjs_presentation:
     theme: night
     template: template.html
+    transition: fade
+    
 ---
 
 ```{r setup, include=FALSE}
@@ -51,3 +53,8 @@ Non-profit biomedical research institute founded in 2007
 
 > A platform for supporting scientific collaborations centered around shared biomedical data sets with a goal of making biomedical research more transparent, more reproducible, and more accessible to a broader audience of scientists.
 
+## Cloud-enabled collaboration {data-transition="fade"}
+
+![synapse](img/cloud_synapse.png)
+
+![connect](img/connect2synapse.png)
