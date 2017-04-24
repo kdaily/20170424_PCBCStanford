@@ -29,7 +29,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## ![sage](img/Sage_neon_logo1.png)
 
-Non-profit biomedical research institute founded in 2007, < 50 employees
+- Non-profit biomedical research institute
+- Founded in 2007
+- $<50$ employees
 
 <br/>
 
@@ -61,7 +63,7 @@ Non-profit biomedical research institute founded in 2007, < 50 employees
 ## ![synapse](img/dream-logo.png)
 
 - Collaborative discovery to accelerate science.
-- Challenges for Scientists by Scientists
+- Challenges for Scientists by Scientists.
 - Open data. Open discovery.
 
 ## ![synapse](img/dream-logo.png)
@@ -90,18 +92,20 @@ Non-profit biomedical research institute founded in 2007, < 50 employees
 
 ![sage mobile health](img/mobilehealth.png)
 
-## Governance
-
-<br/>
+## Governance {data-background="img/6360179693_bc1c5171a3_b.jpg"}
 
 > Data is a gift, which requires <span style="color: #177bad">**informed consent**</span>, Both for data contributors and data accessors!
 
-## Communities - Neurological disorders
+<span style="font-size: small">https://www.flickr.com/photos/liasuxxx/6360179693/</span>
+
+## Communities - Neurological disorders {data-background='img/brain_coral.jpg'}
 
 - [[**AMP**|**MOVE**|**MODEL**]-AD (Alzheimer's Disease)](https://www.synapse.org/ampad)
 - [**B**rain **S**omatic **M**osaicism **N**etwork](https://www.synapse.org/bsmn)
 - [PsychENCODE](https://www.synapse.org/#!Synapse:syn4921369)
 - [CommonMind Consortium](https://www.synapse.org/cmc)
+
+<span style="font-size: small">https://www.flickr.com/photos/76940219@N03/6918270325/</span>
 
 ## Communities - Cancer
 
@@ -121,11 +125,19 @@ Non-profit biomedical research institute founded in 2007, < 50 employees
 
 > A platform for supporting scientific collaborations centered around shared biomedical data sets with a goal of making biomedical research more transparent, more reproducible, and more accessible to a broader audience of scientists.
 
-## Cloud-enabled collaboration {data-transition="fade"}
+## Cloud-enabled collaboration {data-transition="fade" data-background='img/clouds.jpg'}
 
 ![synapse](img/cloud_synapse.png)
 
 ![connect](img/connect2synapse.png)
+
+<span style='font-size: small'>https://www.flickr.com/photos/pagedooley/26698856933/</span>
+
+## https://www.synapse.org/
+
+<img src='img/synapsehome.png' width='150%'/>
+
+> It's free!
 
 ## Projects
 
@@ -158,13 +170,15 @@ Help on [files and folders](http://docs.synapse.org/articles/getting_started.htm
 
 <br/>
 
-> User-defined annotations (key: value pairs)<br/>enables you to search for data files<br/>across folders and projects.
+User-defined annotations enables you to search for data files<br/>across folders and projects
 
-<br/>
+Adding `cellType = fibroblast` and `dataType = rnaSeq` to some files enables a search like:
 
-```
-select id from file where cellType=='fibroblast' and dataType=='rnaSeq'
-```
+> `select id from file where`
+> `cellType=='fibroblast' and`
+> `dataType=='rnaSeq'`
+
+We can expose these queries in a user friendly way!
 
 Help on [Annotation and query](http://docs.synapse.org/articles/annotation_and_query.html)
 
@@ -177,20 +191,38 @@ Help on [Annotation and query](http://docs.synapse.org/articles/annotation_and_q
 
 Help on [Accounts, Certification and Profile Validation](http://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html)
 
-## Access control
+## Quiz!
+
+![quiz](img/quiz.gif)
+
+1. Who already has a Synapse account?
+1. Who is already a certified user?
+
+## Register
+
+> Register at https://www.synapse.org/register
+
+> Join PCBC Team at https://doi.org/10.7303/syn8293408
+
+
+## Access control {data-background='img/share.jpg'}
 
 > Decide who you want to share with through team and user-based sharing settings (or make it public)
 
 Help on [teams](http://docs.synapse.org/articles/teams.html)
 
-## Access control
+<span style="font-size: small">https://www.flickr.com/photos/144152028@N08/32985596281/</span>
+
+## Access control {data-background='img/broken_lock.jpg'}
 
 - Data whose nature confers more than minimal risks of re-identification to the research participant.
 - Genetic sequence or genotype data from living individuals
 - Data from "vulnerable" populations as defined using the [Office for Human Research Protections](https://www.hhs.gov/ohrp/) guidelines
 - Data generated with restrictions or requirements for use as outlined in informed consents or legal agreements
 
-## Access control
+<span style="font-size: small">https://www.flickr.com/photos/slaunay/14506854261/</span>
+
+## Access control {data-background='img/broken_lock.jpg'}
 
 > Access restrictions that require reading and agreeing to terms of use or other data use agreements - may be a physical barrier (e.g., email a signed form)
 
@@ -239,6 +271,8 @@ Example: [Methylation data processing: syn2233188](https://www.synapse.org/#!Syn
 
 ## Progenitor Cell Biology Consortium
 
+<img src='img/nhlbi.jpg' width='30%' />
+
 > <span style="color: #177bad">7</span> institutions, <span style="color: #177bad">17</span> hub sites,<br/><span style="color: #177bad">64</span> cell lines (stem and differentiated)
 
 - Data coordinating center (with cell processing core)
@@ -252,11 +286,11 @@ Example: [Methylation data processing: syn2233188](https://www.synapse.org/#!Syn
 
 ## What has been done
 
-![paper 1](img/paper1.png)
+[![paper 1](img/paper1.png)](http://doi.org/10.1016/j.stemcr.2016.05.006)
 
 ## What has been done
 
-![paper 1](img/paper2.png)
+[![paper 1](img/paper2.png)](http://doi.org/10.1038/sdata.2017.30)
 
 ## What is available to you?
 
