@@ -45,9 +45,42 @@ Non-profit biomedical research institute founded in 2007
 
 ## Our work
 
-- Community Building (in disease research)
+- **Community Building (in disease research)**
 - DREAM Challenges (crowdsourced methods development)
-- Mobile Health (app and process development for personal medicine)
+- Mobile Health (development for personal medicine)
+
+> All of these involve software and people development.
+
+## DREAM Challenges
+
+- Digital Mammography
+- Resilience Project
+- Infectious Diseases
+
+Put logos of some challenges here
+
+## Mobile Health
+
+Apple ResearchKit, Android Research Stack, mPower, Parkinson's, Molemapper
+
+## Governance
+<br/>
+
+> Data is a gift, which requires **informed consent**.
+
+<br/>
+<br/>
+
+## Communities
+
+- [**AMP**|**MOVE**|**MODEL**]-AD (Alzheimer's Disease)
+- **B**rain **S**omatic **M**osaicism **N**etwork
+- PsychENCODE
+
+- The Cancer Genome Atlas
+- **C**hildren's **T**umor **F**oundation (Neurofibromatosis)
+- Project GENIE
+- CSBC / PSON
 
 ## ![synapse](img/newsynapse.png)
 
@@ -58,3 +91,32 @@ Non-profit biomedical research institute founded in 2007
 ![synapse](img/cloud_synapse.png)
 
 ![connect](img/connect2synapse.png)
+
+## Projects
+
+> A collaborative and sharable workspace for organization and description of data and analysis.
+
+## Files
+
+> Scalable, federated cloud storage for any data files
+
+## Organization
+
+> Folders
+
+> Annotations
+
+## Access control
+
+> Team and user-based sharing
+
+> Access restrictions (data use agreements)
+
+## Provenance
+
+> What data or code was used to create something?
+## Visualization
+
+## Structured data
+
+> Tabular data files (spreadsheets)
