@@ -9,6 +9,7 @@ output:
     theme: night
     template: template.html
     transition: fade
+    center: true
     
 ---
 
@@ -57,51 +58,64 @@ Non-profit biomedical research institute founded in 2007, < 50 employees
 
 > All of these involve software and people development.
 
-## DREAM Challenges
+## ![synapse](img/dream-logo.png)
 
-- Digital Mammography
-- Resilience Project
-- Infectious Diseases
+- Collaborative discovery to accelerate science.
+- Challenges for Scientists by Scientists
+- Open data. Open discovery.
 
-Put logos of some challenges here
+## ![synapse](img/dream-logo.png)
+
+- [ICGC-TCGA DREAM Somatic Mutation Calling – RNA Challenge (SMC-RNA)](https://www.synapse.org/#!Synapse:syn2813589)
+- [ENCODE-DREAM in vivo Transcription Factor Binding Site Prediction Challenge](https://www.synapse.org/#!Synapse:syn6131484/wiki/402026)
+- [The Digital Mammography DREAM Challenge](https://www.synapse.org/#!Synapse:syn4224222/wiki/401743)
+- [ICGC-TCGA DREAM Somatic Mutation Calling – RNA Challenge](https://www.synapse.org/#!Synapse:syn2813589/wiki/401435)
+- [Disease Module Identification DREAM Challenge](https://www.synapse.org/#!Synapse:syn6156761)
+- [ICGC-TCGA DREAM Somatic Mutation Calling Challenge – Tumour Heterogeneity & Evolution](https://www.synapse.org/#!Synapse:syn2813581/wiki/303137)
 
 ## Mobile Health
 
-Apple ResearchKit, Android Research Stack, mPower, Parkinson's, Molemapper
+> Building on open frameworks to create powerful apps for medical research
+
+<img src='img/researchkit.png' width='30%' alt='research kit'/>
+<img src='img/researchstack.png' width='30%' alt='research stack'/>
+
+## 
+
+<img src='img/bridge.png' height='30%' alt='bridge'/>
+
+> A technology platform designed to support biomedical research studies conducted though smartphones and other sensor devices.
+
+## Mobile apps
+
+![sage mobile health](img/mobilehealth.png)
 
 ## Governance
-<br/>
-
-> Data is a gift, which requires **informed consent**.
 
 <br/>
-<br/>
 
-> **Both for data contributors and data accessors!**
+> Data is a gift, which requires <span style="color: #177bad">**informed consent**</span>, Both for data contributors and data accessors!
 
-## Communities
+## Communities - Neurological disorders
 
-- [**AMP**|**MOVE**|**MODEL**]-AD (Alzheimer's Disease)
-- **B**rain **S**omatic **M**osaicism **N**etwork
-- PsychENCODE
+- [[**AMP**|**MOVE**|**MODEL**]-AD (Alzheimer's Disease)](https://www.synapse.org/ampad)
+- [**B**rain **S**omatic **M**osaicism **N**etwork](https://www.synapse.org/bsmn)
+- [PsychENCODE](https://www.synapse.org/#!Synapse:syn4921369)
+- [CommonMind Consortium](https://www.synapse.org/cmc)
 
-- The Cancer Genome Atlas
-- **C**hildren's **T**umor **F**oundation (Neurofibromatosis)
-- Project GENIE
-- CSBC / PSON
+## Communities - Cancer
 
-- Microenvironment Perturbagen (LINCS)
+- [The Cancer Genome Atlas Pan-cancer](https://www.synapse.org/#!Synapse:syn300013/)
+- [Synodos/**C**hildren's **T**umor **F**oundation (Neurofibromatosis)](https://www.synapse.org/#!Synapse:syn6135075/)
+- [Project GENIE (**G**enomics **E**vidence **N**eoplasia **I**nformation **E**xchange)](https://www.synapse.org/genie)
+- [Cancer Systems Biology Consortium](http://www.csbconsortium.org/) ([syn7080714](https://www.synapse.org/#!Synapse:syn7080714))
+- Physical Sciences in Oncology Network
 
-## Progenitor Cell Biology Consortium
-<br/>
-<br/>
+## Communities - Other
 
-> <span style="color: #177bad">7</span> institutions, <span style="color: #177bad">17</span> hub sites,<br/><span style="color: #177bad">70</span> cell lines (stem and differentiated) 
-
-- Data coordinating center (with cell processing core)
-- Analysis (with the bioinformatics core)
-- Knowledge portal (through Synapse)
-- Education and support
+- [Microenvironment Perturbagen (LINCS)](https://www.synapse.org/mep_lincs)
+- [The Resilience Project](http://resilienceproject.com/)
+- [Progenitor Cell Biology Consortium](https://www.synapse.org/pcbc)
 
 ## ![synapse](img/newsynapse.png)
 
@@ -115,48 +129,33 @@ Apple ResearchKit, Android Research Stack, mPower, Parkinson's, Molemapper
 
 ## Projects
 
-<br/>
-<br/>
-<br/>
-
 > A collaborative and sharable workspace for organization and description of data and analysis.
 
-http://docs.synapse.org
+http://docs.synapse.org/articles/making_a_project.html
 
 ## Files
 
-<br/>
-<br/>
-<br/>
-
 > Scalable, federated cloud storage for any data files
 
-http://docs.synapse.org
+> Every file gets a unique identifier, e.g. [syn1773109](https://www.synapse.org/#!Synapse:syn1773109/)
+
+Help on [files](http://docs.synapse.org/articles/files_and_versioning.html#files)
 
 ## Versioning
 
-<br/>
-<br/>
-<br/>
+> Data changes over time - can update existing files without removing or overwriting them (e.g. [syn2701943.3](https://www.synapse.org/#!Synapse:syn2701943.3))
 
-> Data changes over time - can update existing files without removing or overwriting them
-
-http://docs.synapse.org
+Help on [versioning](http://docs.synapse.org/articles/files_and_versioning.html#versioning)
 
 ## Organization
 
-<br/>
-<br/>
-<br/>
-
 > A familiar folder hierarchy - a common way to separate files by content or access control
 
-http://docs.synapse.org
+Help on [files and folders](http://docs.synapse.org/articles/getting_started.html#organizing-data-creating-files-and-folders)
+
 
 ## Organziation
 
-<br/>
-<br/>
 <br/>
 
 > User-defined annotations (key: value pairs)<br/>enables you to search for data files<br/>across folders and projects.
@@ -167,101 +166,101 @@ http://docs.synapse.org
 select id from file where cellType=='fibroblast' and dataType=='rnaSeq'
 ```
 
-http://docs.synapse.org
+Help on [Annotation and query](http://docs.synapse.org/articles/annotation_and_query.html)
 
 ## Access control
 
-<br/>
-<br/>
-
-1. **Public** (view)
+1. **Public (anonymous)** (view)
 1. **Registered** (+ download)
 1. **Certified** (+ upload)
 1. **Validated** (+ research)
 
-http://docs.synapse.org
+Help on [Accounts, Certification and Profile Validation](http://docs.synapse.org/articles/accounts_certified_users_and_profile_validation.html)
 
 ## Access control
-
-<br/>
-<br/>
-<br/>
 
 > Decide who you want to share with through team and user-based sharing settings (or make it public)
 
-http://docs.synapse.org
+Help on [teams](http://docs.synapse.org/articles/teams.html)
 
 ## Access control
 
-<br/>
-<br/>
-<br/>
+- Data whose nature confers more than minimal risks of re-identification to the research participant.
+- Genetic sequence or genotype data from living individuals
+- Data from "vulnerable" populations as defined using the [Office for Human Research Protections](https://www.hhs.gov/ohrp/) guidelines
+- Data generated with restrictions or requirements for use as outlined in informed consents or legal agreements
+
+## Access control
 
 > Access restrictions that require reading and agreeing to terms of use or other data use agreements - may be a physical barrier (e.g., email a signed form)
 
-## Attribution
+Help on [Conditions for use](http://docs.synapse.org/articles/access_controls.html#conditions-for-use)
 
-<br/>
-<br/>
-<br/>
+## Attribution
 
 > Get credit for what you've done by creating and modifying things in Synapse.
 
-http://docs.synapse.org
+<img src='img/attribution.png' width='65%' />
 
 ## Attribution
 
-<br/>
-<br/>
-<br/>
-
 > Cite the work you have contributed using a DOI on anything in Synapse!
 
-https://www.synapse.org/pcbc
-
-https://doi.org/dx(put DOI to PCBC project)
+[![doi](img/pcbc_synapse_header.png)](https://doi.org/10.7303/syn1773109)
 
 ## Provenance
 
-<br/>
-<br/>
-<br/>
-
+> The place or source of origin.
 > What data or code was used to create something?
 
-http://docs.synapse.org
+<img src='img/expandProvenance.png' width='45%' />
 
 ## Structured data
 
-<br/>
-<br/>
-<br/>
-
 > Tabular data files (spreadsheets)
 
-http://docs.synapse.org
+Example: [PCBC Cell Line Metadata (syn2767694)](https://www.synapse.org/#!Synapse:syn2767694/tables/)
+
+Help on [tables](http://docs.synapse.org/articles/tables.html)
+
+## Collaborative editing (documentation, help, readmes)
+
+> Use text-based formatting system to author rich content describing projects, folders, and files. Can use automated solutions (like RMarkdown) as well!
+
+Example: [Methylation data processing: syn2233188](https://www.synapse.org/#!Synapse:syn2233188)
 
 ## Discussions
 
-<br/>
-<br/>
-<br/>
-
 > Threaded forum with integration to data files
 
-http://docs.synapse.org
+[Example: Synapse Help Forum](https://www.synapse.org/#!SynapseForum:default)
+
+[Help on discussion forums](http://docs.synapse.org/articles/discussion.html)
+
+## Progenitor Cell Biology Consortium
+
+> <span style="color: #177bad">7</span> institutions, <span style="color: #177bad">17</span> hub sites,<br/><span style="color: #177bad">64</span> cell lines (stem and differentiated)
+
+- Data coordinating center (with cell processing core)
+- Analysis (with the bioinformatics core)
+- Knowledge portal (through Synapse)
+- Education and support
 
 ## What has been done
 
-reference to second paper
+<img src='img/scidata-fig1.png' width='60%' alt='scidata figure 1' />
 
 ## What has been done
 
-reference to first paper
+![paper 1](img/paper1.png)
+
+## What has been done
+
+![paper 1](img/paper2.png)
 
 ## What is available to you?
 
-Show image from second paper
+https://www.synapse.org/pcbc
 
 ## Processed and summarized data
 
@@ -269,8 +268,34 @@ Show image from second paper
 
 > Rectangular matrices of samples by features for mRNA, miRNA, and methylation
 
-Show the view
+https://www.synapse.org/#!Synapse:syn8231177/tables/
 
 ## All the data
 
-Show the view
+> fastq, bam, bed, idat...
+
+https://www.synapse.org/#!Synapse:syn7511263/tables/
+
+## Organized by laboratory
+
+https://www.synapse.org/#!Synapse:syn4908057
+
+## Organized by cell line
+
+https://www.synapse.org/#!Synapse:syn5762789
+
+## Experimental protocols
+
+> Laboratory procedures used in differentiation, cell handling, etc.
+
+https://www.synapse.org/#!Synapse:syn1773109/wiki/69075
+
+## Metadata
+
+> Documentation on all of the assays performed on C4 samples, including metadata related to cell lines, sample processing, and assay processing.
+
+https://www.synapse.org/#!Synapse:syn1773109/wiki/393527
+
+## Interactive data explorer
+
+[![data explorer](img/scidata-fig3.png)](https://www.synapse.org/#!Synapse:syn1773109/wiki/63531)
